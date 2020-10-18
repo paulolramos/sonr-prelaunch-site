@@ -1,0 +1,59 @@
+.container {
+  color: white;
+  font-family: "lato";
+  font-weight: 300;
+  margin-top: 12rem;
+}
+
+.newsletterText {
+  display: block;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.form > label {
+  display: block;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.input {
+  margin-right: 10px;
+  padding: 5px;
+  height: 100%;
+}
+
+.submitButton {
+  padding: 10px;
+  background-color: #b24242;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: lighter;
+  width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin-top: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .form {
+    width: 70%;
+    margin: auto;
+  }
+
+  .newsletterText {
+    text-align: center;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+}

@@ -1,0 +1,71 @@
+.text {
+  color: white;
+  font-family: "lato";
+  font-weight: 300;
+  margin-top: 5rem;
+  font-size: 27px;
+  position: relative;
+  right: 6rem;
+}
+
+.artistImage {
+  position: relative;
+  left: 100px;
+}
+
+.eventImage {
+  position: relative;
+  right: 80px;
+}
+
+.comingSoon {
+  font-size: 62px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .text {
+    margin-top: 0rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    right: 0rem;
+  }
+
+  .artistImage {
+    left: 0px;
+    justify-self: center;
+  }
+
+  .eventImage {
+    right: 0px;
+    justify-self: center;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1315px) {
+  .text {
+    margin-top: 2rem;
+  }
+
+  .artistImage {
+    left: 80px;
+  }
+
+  .eventImage {
+    right: 80px;
+  }
+}
+
+@media screen and (min-width: 1315px) {
+  .text {
+    right: 12rem;
+  }
+  .artistImage {
+    left: 150px;
+  }
+
+  .eventImage {
+    right: 80px;
+  }
+}

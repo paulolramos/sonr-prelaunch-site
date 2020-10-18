@@ -1,0 +1,20 @@
+.socialMedia {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.socialMedia a {
+  padding: 0px 10px;
+}
+
+.socialMedia a img {
+  width: 25px;
+  fill: white;
+}
+
+@media (max-width: 767px) {
+  .socialMedia {
+    display: none;
+  }
+}

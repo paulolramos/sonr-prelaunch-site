@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+}
+
+input,
+textarea {
+  display: block;
+  font-family: "Lato";
+  font-weight: 300;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #efefef;
+  font-size: 16px;
+  border: none;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+svg {
+  fill: white;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+button:disabled {
+  background: #999999;
+  color: black;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 52px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.deck {
+  color: white;
+  text-align: center;
+  margin: 0px auto 55px;
+  font-size: 22px;
+  width: 60%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.icon {
+  vertical-align: bottom;
+  margin-right: 8px;
+  font-size: 24px;
+  fill: #56ccf2;
+}
+
+@media (max-width: 767px) {
+  .section-heading {
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .deck {
+    width: 80%;
+    font-size: 18px;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

@@ -1,0 +1,77 @@
+.wrapper {
+  background-image: url("/static/florentine-pautet-hero-bb6b66529dc039f6fba1aec47db480d9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 0 5%;
+  padding-top: 5px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo > a {
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+.rightLinks {
+  float: right;
+  position: relative;
+  top: 20px;
+}
+
+.rightLinks > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0px 25px;
+  font-family: "Montserrat";
+}
+
+.headLine {
+  width: 465px;
+  text-align: left;
+}
+
+.headLine > h1 {
+  color: white;
+  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 3px #181818;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: initial;
+  }
+
+  .headLine {
+    width: 100%;
+  }
+
+  .headLine > h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .rightLinks {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+  }
+  .logo > a {
+    padding: 2px 10px;
+  }
+}

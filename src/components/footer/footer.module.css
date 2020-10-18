@@ -1,0 +1,28 @@
+.footer {
+  text-align: center;
+}
+
+.links {
+  margin-top: 26px;
+  font-family: "lato";
+  font-weight: 300;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 2%;
+}
+
+@media (max-width: 375px) {
+  .links a {
+    font-size: 18px;
+    padding: 0px 5%;
+  }
+
+  .socialMedia {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 35px;
+  }
+}

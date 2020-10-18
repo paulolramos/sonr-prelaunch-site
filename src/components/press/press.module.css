@@ -1,0 +1,15 @@
+.heading {
+  text-align: left;
+}
+
+.deckOverride {
+  text-align: left;
+  margin-left: 0px;
+  width: 80%;
+}
+
+.wrapper {
+  background-image: url("/static/jan-strecha-auq-press-5025ae2ad6bc18794ea3ca71d4cfa30b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,57 @@
+.container {
+  color: white;
+  font-family: "lato";
+  border: 1px solid #56ccf2;
+  border-radius: 13px;
+  background-color: #181818;
+  padding: 40px 35px;
+  margin: auto;
+  font-weight: 300;
+  text-align: center;
+}
+
+.headline {
+  font-size: 24px;
+}
+
+.form {
+  margin-top: 15px;
+}
+
+.formItem {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.formItem label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.submitButton {
+  display: block;
+  padding: 10px 20px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #b24242;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: lighter;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 35px 0px 40px;
+    margin-bottom: 40px;
+    width: 90% !important;
+  }
+
+  .form {
+    margin: auto;
+    margin-top: 15px;
+    width: 80%;
+  }
+}
